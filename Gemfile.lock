@@ -1,0 +1,31 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: b4aaf1c43aa87936846a863a51beac6fe27892f6
+  specs:
+    rack-protection (2.0.0)
+      rack
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dentaku (3.0.0)
+    json (2.1.0)
+    mustermann (1.0.1)
+    rack (2.0.3)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dentaku
+  json
+  sinatra!
+
+BUNDLED WITH
+   1.15.1
