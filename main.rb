@@ -2,7 +2,7 @@ require 'sinatra'
 require 'dentaku'
 require 'json'
 
-# Main loop
+# Main route
 get '/units/si' do
   content_type :json
   units = params[:units]
