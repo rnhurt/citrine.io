@@ -21,4 +21,7 @@ and it returns a JSON structure.
 ## Execution
 
 1) Run the web server: ```bundle exec ruby main.rb```
-2) Run your tests against the URL: http://localhost:4567
+2) Run your tests against localhost on port 4567
+    * http://localhost:4567/units/si?units=ha*degree
+    * http://localhost:4567/units/si?units=degree/minute
+    * http://localhost:4567/units/si?units=(degree/(minute*hectare))
