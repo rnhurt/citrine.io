@@ -16,12 +16,13 @@ and it returns a JSON structure.
 ## Installation
 
 1) Clone the repository: ```git clone git@github.com:rnhurt/citrine.io.git```
-2) Install the necessary gems: ```bundle install```
+1) Change to the Citrine.io directory: ```cd citrine.io```
+1) Install the necessary gems: ```bundle install```
 
 ## Execution
 
 1) Run the web server: ```bundle exec ruby main.rb```
-2) Run your tests against localhost on port 4567
+1) Run your tests against localhost on port 4567
     * http://localhost:4567/units/si?units=ha*degree
     * http://localhost:4567/units/si?units=degree/minute
     * http://localhost:4567/units/si?units=(degree/(minute*hectare))
